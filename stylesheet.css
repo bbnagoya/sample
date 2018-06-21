@@ -1,0 +1,198 @@
+/* CSSのリセット（消さないでください） */
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p,
+form, input, div {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+}
+
+/* ここからCSSを記述してください */
+body{
+  font-family: "Avenir Next", "Hiragino Kaku Gothic ProN W3", sans-serif;
+}
+
+header{
+  height: 90px;
+  background-color: #26D0C9;
+}
+
+header h1{
+  padding: 20px 40px 20px 40px;
+  color: #FFFFFF;
+  font-size: 36px;
+  font-weight: normal;
+  float: left;
+}
+
+header li{
+  float: left;
+  padding: 33px 20px 33px 20px;
+  color: #FFFFFF;
+}
+
+.top-wrapper{
+    margin: 100px 80px 0px 80px;
+    background-color: #FFFFFF;
+}
+
+.top-wrapper h1{
+  color: #000000;
+  font-size: 140px;
+}
+
+.top-wrapper h1 span{
+  color: #FF4A4A;
+}
+
+.top-wrapper h2{
+  color: #000000;
+  font-size: 60px;
+}
+
+.lesson-wrapper{
+  margin: 100px 80px 0px 80px;
+  background-color: #FFFFFF;
+}
+
+.lesson-wrapper h3{
+  padding: 0px 0px 15px 0px;
+  color: #000000;
+  font-size: 28px;
+  border-bottom: 2px solid #DEE7EC;
+}
+
+.lesson{
+}
+
+.lesson1 img{
+  margin: 50px 0px 30px 0px;
+}
+
+.lesson1 p{
+  margin: 0px 0px 100px 0px;
+}
+
+.lesson1{
+  margin: 0px 40px 0px 0px;
+  font-size: 24px;
+  float: left;
+}
+
+
+.lesson2 img{
+  margin: 50px 0px 30px 0px;
+}
+
+.lesson2 p{
+  margin: 0px 0px 100px 0px;
+}
+
+.lesson2{
+  margin: 0px 40px 0px 0px;
+  font-size: 24px;
+  float: left;
+}
+.lesson3 img{
+  margin: 50px 0px 30px 0px;
+}
+
+.lesson3 p{
+  margin: 0px 0px 100px 0px;
+}
+
+.lesson3{
+  margin: 0px 40px 0px 0px;
+  font-size: 24px;
+  float: left;
+}
+
+.lesson4 img{
+  margin: 50px 0px 30px 0px;
+}
+
+.lesson4 p{
+  margin: 0px 0px 100px 0px;
+}
+
+.lesson4{
+  margin: 0px 40px 0px 0px;
+  font-size: 24px;
+  float: left;
+}
+
+
+.contact-wrapper{
+  margin: 0px 80px 0px 80px;
+}
+
+.contact-wrapper h3{
+    padding: 0px 0px 15px 0px;
+    color: #000000;
+    font-size: 28px;
+    border-bottom: 2px solid #DEE7EC;
+    clear: left;
+}
+
+.Address p{
+  margin-top: 50px;
+  padding-bottom: 10px;
+}
+
+.Address input{
+  width: 400px;
+  margin: 10px;
+  padding: 20px;
+}
+
+.Text p{
+  margin-top: 30px;
+  padding-bottom: 10px;
+}
+
+.Text textarea{
+  width: 400px;
+  margin: 10px;
+  padding: 20px;
+}
+
+.Send p{
+  margin-top: 30px;
+  padding-bottom: 10px;
+}
+
+.Send input{
+  width: 400px;
+  padding: 20px;
+  color: #889EAB;
+  background-color: #DEE7EC;
+  font-size: 18px;
+  margin-bottom: 150px;
+}
+
+footer{
+  height: 200px;
+  background-color: #2F5167;
+}
+
+footer h1{
+  font-size: 32px;
+  font-weight: normal;
+  margin: 40px;
+  color: white;
+  float: left;
+}
+
+footer ul{
+  float: right;
+  color: white;
+  padding: 40px;
+}
+
+footer li{
+  padding-bottom: 20px;
+}
